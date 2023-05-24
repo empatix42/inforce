@@ -1,0 +1,57 @@
+.create {
+  color: #555;
+  max-width: 480px;
+  margin: 60px auto;
+}
+
+.create input {
+  margin: 10px 0;
+  min-width: 220px;
+}
+.create h4 {
+  text-align: center;
+}
+
+.size {
+  display: flex;
+  justify-content: space-between;
+}
+
+.create p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.create .btns {
+  display: flex;
+}
+
+.create button {
+  display: block;
+  width: 200px;
+  font-size: 1em;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #249c4a;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 30px auto;
+}
+
+.create .btn-comment {
+  width: 200px;
+}
+
+.create .btn-cancel {
+  background-color: #9c2424;
+}
+
+.comments {
+  display: flex;
+  align-items: center;
+}
+.comments button {
+  margin: 0 0 0 10px;
+}

@@ -1,0 +1,31 @@
+.header {
+  background: #58249c;
+  color: #fff;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header a.brand {
+  margin-right: auto;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header a:last-child {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+  padding: 8px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.header a:last-child:hover {
+  background: #fff;
+  color: #333;
+}

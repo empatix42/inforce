@@ -1,0 +1,23 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: black;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  width: 480px;
+  height: 200px;
+  background: rgb(185, 185, 185);
+  border-radius: 5px;
+}
+.modal .content {
+    padding: 20px;
+    color: black;
+    text-align: center;
+}

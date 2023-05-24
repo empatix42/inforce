@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "name": "Product 1",
+      "count": "3",
+      "weight": "200g",
+      "size": {
+        "height": "35",
+        "width": "25"
+      },
+      "id": "8544c208-e24e-4fb7-b4c0-a1511d8e0a6b",
+      "comments": [
+        {
+          "id": "a9ac41d1-6788-4222-b3db-06b8878731c9",
+          "productId": "8544c208-e24e-4fb7-b4c0-a1511d8e0a6b",
+          "description": "some comment",
+          "date": "2023-05-24T12:05:46.193Z"
+        }
+      ]
+    },
+    {
+      "name": "Product 2",
+      "count": "56",
+      "weight": "568",
+      "size": {
+        "height": "35",
+        "width": "60"
+      },
+      "id": "8e16e807-c714-4c75-baff-40b0cc03bfec",
+      "comments": [
+        {
+          "id": "f884cefc-328c-4db6-b652-1c9c15733147",
+          "productId": "8e16e807-c714-4c75-baff-40b0cc03bfec",
+          "description": "comment 1",
+          "date": "2023-05-24T12:06:12.719Z"
+        },
+        {
+          "id": "67c3db64-a74b-407a-800a-d4fb9b0e7e08",
+          "productId": "8e16e807-c714-4c75-baff-40b0cc03bfec",
+          "description": "test comment",
+          "date": "2023-05-24T12:06:15.791Z"
+        }
+      ]
+    }
+  ]
+}

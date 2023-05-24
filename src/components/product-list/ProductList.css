@@ -1,0 +1,62 @@
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.product-list .card {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  text-align: center;
+}
+.product-list .card a {
+  color: #555;
+  text-decoration: none;
+  display: block;
+  background: #e2e2e2;
+  font-size: 0.9em;
+  text-align: center;
+  width: 120px;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 20px auto 0;
+  cursor: pointer;
+}
+
+.product-list .icon-delete {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  max-width: 25px;
+  cursor: pointer;
+  filter: invert(50%);
+}
+
+.product-list .btns {
+  display: flex;
+}
+
+.product-list button {
+  display: block;
+  width: 200px;
+  font-size: 1em;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #249c4a;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 30px auto;
+}
+
+.product-list .btn-cancel {
+  background-color: #9c2424;
+}
